@@ -1,0 +1,10 @@
+# Cloudflare Pages configuration
+name = "my-lovable-project"
+compatibility_date = "2025-05-16"
+
+[build]
+command = "npm run build"
+output_dir = "dist"
+
+[site]
+bucket = "./dist"
